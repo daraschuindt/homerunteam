@@ -1,0 +1,263 @@
+.see-more-button {
+  background-color: rgb(196, 130, 7);
+  color: black;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.get-a-quote-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.greater-than-1 {
+  margin-left: 126px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.greater-than-2 {
+  margin-left: 100px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.get-free-estimate-button {
+  background-color: rgb(196, 130, 7);
+  color: black;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gallery-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-us-button {
+  background-color: rgb(196, 130, 7);
+  color: black;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.send-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 80px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact-us-page-buttons {
+  background-color: rgb(139, 74, 12);
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+.services-button {
+  background-color: rgb(196, 130, 7);
+  color: black;
+  border: none;
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.see-more-button:hover,
+.get-a-quote-button:hover,
+.get-free-estimate-button:hover,
+.gallery-button:hover,
+.contact-us-button:hover,
+.services-button:hover,
+.send-button:hover {
+opacity: 0.8;
+}
+
+.see-more-button,
+.get-a-quote-button,
+.get-free-estimate-button,
+.gallery-button,
+.contact-us-button,
+.services-button,
+.send-button {
+transition: opacity 0.15s;
+}
+
+@media (max-width: 960px) {
+  .buttons {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  
+}
+
+@media (max-width: 617px) {
+  .see-more-button,
+  .get-a-quote-button,
+  .get-free-estimate-button,
+  .gallery-button,
+  .contact-us-button,
+  .services-button,
+  .send-button {
+    font-size: 12px;
+  }
+
+  .greater-than-1 {
+    margin-left: 60px;
+    font-size: 12px;
+  }
+  
+  .greater-than-2 {
+    margin-left: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 487px) {
+  .see-more-button,
+  .get-a-quote-button,
+  .get-free-estimate-button,
+  .gallery-button,
+  .contact-us-button,
+  .services-button,
+  .send-button {
+    font-size: 10px;
+  } 
+}
+
+@media (min-width: 1025px) {
+  .see-more-button,
+  .get-a-quote-button,
+  .get-free-estimate-button,
+  .gallery-button,
+  .contact-us-button,
+  .services-button,
+  .send-button {
+    font-size: 16px;
+}
+}
+
+@media (min-width: 1485px) {
+  .see-more-button,
+  .get-a-quote-button,
+  .get-free-estimate-button,
+  .gallery-button,
+  .contact-us-button,
+  .services-button,
+  .send-button {
+    font-size: 24px;
+    padding: 22px;
+    border-radius: 68px;
+}
+
+.greater-than-1 {
+  margin-left: 180px;
+  font-size: 24px;
+}
+
+.greater-than-2 {
+  margin-left: 170px;
+  font-size: 24px;
+}
+}
+
+@media (min-width: 2200px) {
+  .see-more-button,
+  .get-a-quote-button,
+  .get-free-estimate-button,
+  .gallery-button,
+  .contact-us-button,
+  .services-button,
+  .send-button {
+    font-size: 28px;
+    padding: 26px;
+    border-radius: 68px;
+}
+
+.greater-than-1 {
+  margin-left: 200px;
+  font-size: 28px;
+}
+
+.greater-than-2 {
+  margin-left: 190px;
+  font-size: 28px;
+}
+}
+
+@media (min-width: 2700px) {
+  .see-more-button,
+  .get-a-quote-button,
+  .get-free-estimate-button,
+  .gallery-button,
+  .contact-us-button,
+  .services-button,
+  .send-button {
+    font-size: 36px;
+    padding: 34px;
+    border-radius: 68px;
+}
+
+.greater-than-1 {
+  margin-left: 290px;
+  font-size: 36px;
+}
+
+.greater-than-2 {
+  margin-left: 280px;
+  font-size: 36px;
+}
+}

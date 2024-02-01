@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+  background-color: white;
+}
+
+.contact-us-picture {
+  height: 580px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.background-picture-container {
+  position: relative;
+  display: flex;
+}
+
+.email-us {
+ position: absolute;
+ text-align: center;
+ font-size: 46px;
+ color: white;
+ text-shadow: 5px 5px 12px black;
+ top: 350px;
+ right: 100px;
+ left: 100px;
+ white-space: nowrap;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: white;
+  position: absolute;
+  right: 210px;
+  left: 210px;
+  top: -80px;
+  height: 700px;
+  border-radius: 16px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.50);
+}
+
+.orange-container {
+  display: flex;
+  background-color: rgb(139, 74, 12);
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  position: relative;
+}
+
+.input-info {
+  width: 100%px;
+  height: 24px;
+  margin-bottom: 14px;
+  
+}
+
+.input-message {
+  width: 100%;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-bottom: 260px;
+  margin-bottom: 14px;
+}
+
+.contact-form {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 960px) {
+ .email-us {
+  font-size: 38px;
+  top: 260px;
+ }
+
+ .contact-form-container {
+  right: 180px;
+  left: 180px;
+ }
+ }
+
+@media (max-width: 820px) {
+ .email-us {
+  font-size: 36px;
+  top: 250px;
+ }
+
+ .contact-form-container {
+  right: 100px;
+  left: 100px;
+  top: -120px;
+ }
+
+ .orange-container {
+  height: 580px;
+}
+}
+
+@media (max-width: 720px) {
+.email-us {
+  font-size: 34px;
+}
+
+body {
+  margin-top: 100px;
+}
+}
+
+@media (max-width: 617px) {
+ .email-us {
+  font-size: 32px;
+  top: 230px;
+ }
+
+ .contact-form-container {
+  right: 80px;
+  left: 80px;
+  padding-right: 40px;
+  padding-left: 40px;
+  height: 600px;
+ }
+
+ .orange-container {
+  height: 480px;
+}
+}
+
+@media (max-width: 500px) {
+  .contact-form-container {
+    right: 40px;
+    left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 550px;
+   }
+
+   .input-message {
+    padding-bottom: 180px;
+   }
+
+   .email-us {
+    font-size: 28px;
+   }
+
+   .orange-container {
+    height: 420px;
+  }
+}
+
+@media (max-width: 430px) {
+  .email-us {
+    white-space: wrap;
+  }
+}
+
+@media (min-width: 1025px) {
+.email-us {
+  top: 300px;
+}
+
+.contact-form {
+  font-size: 28px;
+}
+ }
+
+@media (min-width: 1485px) {
+ .email-us {
+  font-size: 68px;
+  top: 450px;
+ }
+
+ .contact-us-picture {
+  height: 900px;
+ }
+
+ .contact-form {
+  font-size: 48px;
+ }
+
+ .contact-form-container {
+  right: 210px;
+  left: 210px;
+  top: -140px;
+  height: 880px;
+ }
+
+ .input-info {
+  height: 42px;
+  padding-top: 10px;
+  padding-left: 10px;
+ }
+
+ .input-message {
+ padding-bottom: 380px;
+ padding-top: 20px;
+ padding-left: 10px;
+ }
+
+.orange-container {
+  height: 800px;
+}
+
+::placeholder {
+  font-size: 26px;
+}
+}
+
+@media (min-width: 1800px) {
+.email-us {
+  font-size: 74px;
+  top: 550px;
+}
+
+.contact-form-container {
+  height: 1000px;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.input-info {
+  margin-bottom: 28px;
+}
+
+.input-message {
+  margin-bottom: 28px;
+}
+
+.orange-container {
+  height: 900px;
+}
+}
+
+@media (min-width: 2200px) {
+ .email-us {
+  font-size: 88px;
+  top: 670px;
+ }
+
+ .contact-us-picture {
+  height: 1200px;
+ }
+
+ .input-info {
+  height: 52px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+ }
+
+ .input-message {
+ padding-bottom: 680px;
+ padding-top: 20px;
+ padding-left: 10px;
+ padding-top: 30px;
+ margin-bottom: 30px;
+ 
+ }
+
+ .contact-form-container {
+  height: 1500px;
+  padding-right: 130px;
+  padding-left: 130px;
+ }
+
+ .orange-container {
+  height: 1400px;
+ }
+
+ ::placeholder {
+  font-size: 30px;
+ }
+}
+
+@media (min-width: 2500px) {
+ .email-us {
+  font-size: 92px;
+  top: 790px;
+ }
+
+ .contact-us-picture {
+  height: 1400px;
+ }
+
+ .contact-form {
+  font-size: 60px;
+ }
+
+ .input-info {
+  height: 58px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .input-message {
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .contact-form-container {
+  height: 1500px;
+  padding-right: 130px;
+  padding-left: 130px;
+ }
+
+ .orange-container {
+  height: 1440px;
+ }
+
+ ::placeholder {
+  font-size: 34px;
+ }
+}
+
+@media (min-width: 2900px) {
+.email-us {
+  font-size: 120px;
+  top: 890px;
+}
+
+.contact-us-picture {
+  height: 1600px;
+}
+
+.contact-form {
+  font-size: 62px;
+  margin-bottom: 38px;
+ }
+
+ .input-info {
+  height: 64px;
+  margin-left: 24px;
+  margin-right: 24px;
+ }
+
+ .input-message {
+  margin-left: 26px;
+  margin-right: 26px;
+ }
+
+ .contact-form-container {
+  height: 1700px;
+  padding-right: 130px;
+  padding-left: 130px;
+ }
+
+ .orange-container {
+  height: 1650px;
+ }
+
+ ::placeholder {
+  font-size: 36px;
+ }
+}
